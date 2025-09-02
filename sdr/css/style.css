@@ -193,7 +193,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('./sdr/image/plano_fundo.jpg') no-repeat center center/cover;
+    background: url('https://armenpress.am/resized/1600/static/news/b/2013/10/735612.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,3 +295,4 @@ body {
 
 
   
+

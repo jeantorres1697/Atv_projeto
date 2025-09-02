@@ -193,7 +193,7 @@ body {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('/sdr/image/plano_fundo.jpg') no-repeat center center/cover;
+    background: url('./sdr/image/plano_fundo.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,5 +292,6 @@ body {
   font-weight: bold;
   z-index: 2;
 }
+
 
   

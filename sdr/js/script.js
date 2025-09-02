@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
       setTimeout(() => {
         overlay.remove();
       }, 800); // Duração da animação + segurança
-    }, 1500);
+    }, 1000);
   }
 });
 
@@ -85,5 +85,6 @@ document.querySelectorAll('.modal').forEach(modal => {
         }
     });
 });
+
 
 

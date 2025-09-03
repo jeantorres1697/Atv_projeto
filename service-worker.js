@@ -1,11 +1,14 @@
 const CACHE_NAME = "WORLD-WIDE-WEB";
 const FILES_TO_CACHE = [
-    "index.html",
+    "/",
+    "/index.html",
     "/sdr/css/style.css",
-    "manifest.json",
+    "/manifest.json",
     "/sdr/image/icons/icon-192.png",
     "/sdr/image/icons/icon-512.png",
-    "/sdr/image/logo.png"
+    "/sdr/image/logo.png",
+    "/sdr/js/script.js",
+    "/service-worker.js"
 ];
 
 self.addEventListener("install", event => {
@@ -34,4 +37,5 @@ self.addEventListener("fetch", event => {
             return response || fetch(event.request);
         })
     );
+
 });
